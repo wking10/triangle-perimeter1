@@ -27,6 +27,6 @@ document.getElementById("Perimeter-ans").innerHTML = AB+AC+BC
 }
 
 function dist(xone, yone, xtwo, ytwo) { 
-return Math
+return Math.sqrt((xtwo - xone) ** 2+ (ytwo-yone) **2);
 }
 
